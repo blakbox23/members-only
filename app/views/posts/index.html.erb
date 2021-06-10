@@ -3,9 +3,9 @@
 <ul>
   <% @posts.each do |post| %>
     <li>
-    <%= post.title %>
+    <%= post.title | %>
      <% if user_signed_in?%>
-         <%= post.user.email %>
+         <%= post.user.email %> 
      <%  end %>         
     </li>
   <% end %>
