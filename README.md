@@ -16,6 +16,8 @@ After cloning the repo, you also need to install the required gems in your machi
 - Run `bundle install` to install the dependencies.
 - Run `rails db:create` and `rails db:migrate` to create required database tables.
 
+ Run `rails server` to run the project.
+ Visit `localhost:3000` in chrome or any browser to see the project and enjoy.
 
 ## Authors
 
