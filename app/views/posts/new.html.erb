@@ -1,0 +1,13 @@
+<h1> Helllo post new is here</h1>
+
+
+<%= form_with model: @post, method: :post do |form| %>
+  <%= form.label :title, "Title:"%> 
+  <%= form.text_field :title%><br><br>
+
+  <%= form.label :body, "Body:"%> 
+  <%= form.text_field :body %><br><br>
+
+  <%= form.submit "Submit" %>
+ 
+<% end %>
